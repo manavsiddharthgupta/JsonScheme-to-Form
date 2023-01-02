@@ -1,0 +1,14 @@
+.input_text input {
+  font-size: 0.9rem;
+  width: 400px;
+  min-width: 50px;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  order: 2;
+}
+input[required] + label:after {
+  content: "*";
+  color: red;
+}

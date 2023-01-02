@@ -1,0 +1,19 @@
+.group_field {
+  border-bottom: 1px solid black;
+  padding: 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+}
+.req {
+  order: 2;
+}
+.group_label {
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+div.req + label:after {
+  content: "*";
+  color: red;
+}

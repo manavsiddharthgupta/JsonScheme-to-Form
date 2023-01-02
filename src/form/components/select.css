@@ -1,0 +1,13 @@
+.select select {
+  font-size: 0.9rem;
+  padding: 0.25rem 0.5rem;
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  order: 2;
+}
+select[required] + label:after {
+  content: "*";
+  color: red;
+}

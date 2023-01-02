@@ -1,0 +1,38 @@
+.input_radio li {
+  width: 250px;
+  height: 35px;
+  position: relative;
+}
+
+.input_radio label,
+.input_radio input {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.input_radio input[type="radio"] {
+  opacity: 0.01;
+  z-index: 100;
+}
+
+.input_radio input[type="radio"]:checked + label,
+.Checked + label {
+  background: black;
+  color: white;
+}
+
+.input_radio label {
+  text-align: center;
+  padding: 5px 0px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  z-index: 90;
+}
+
+.input_radio label:hover {
+  background: #ddd;
+}
