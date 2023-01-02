@@ -5,6 +5,10 @@
 
 [Json-To-FormUi.netlify.app](https://jsonscheme-to-form.netlify.app/)
 
+## Tech Stack
+
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react" />
+
 ## Credit
  - <a href="https://www.npmjs.com/package/react-json-editor-ajrm" >Json editor</a>
 
